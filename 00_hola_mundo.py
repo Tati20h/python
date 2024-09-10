@@ -1,4 +1,5 @@
 print("Hola mundo gay")
+print(type("Hola mundo gay"))
 
 """
 # Este es un comentario de una sola línea
@@ -34,18 +35,25 @@ else:
 
 #Tipos de datos básicos
 Enteros (int)
-
+"""
+print(type(5))
+"""
 edad = 25
 cantidad = 100
 
 
 Flotantes (float)
-
+"""
+print(type(1.5))
+"""
 precio = 100.50
 peso = 80.5
 
 Booleanos (bool)
 
+"""
+print(type(True))
+"""
 es_mayor = True
 es_menor = False
 
@@ -70,6 +78,10 @@ a = b = c = 10
    3. Las variables solo pueden contener caracteres alfanuméricos y guiones bajos (_).   
 
 #  ejemplo 
+"""
+print(type("Hola mundo gay"))
+
+"""
 
 edad
 nombre_completo
@@ -77,7 +89,9 @@ total_ventas
 _contador
  
 #Aritméticos
- 
+ """
+print(type(1+5j))
+"""
 Suma (+): suma dos valores.
 Resta (-): resta el segundo valor del primero.
 Multiplicación (*): multiplica dos valores.
