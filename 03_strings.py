@@ -40,7 +40,26 @@ print(languaje_slice)
 languaje_slice = languaje[1:]
 print(languaje_slice)
 
+languaje_slice = languaje[-2]
+print(languaje_slice)
+
+languaje_slice = languaje[1:2:4]
+print(languaje_slice)
+
 #Reverse 
 
 reverse_languaje = languaje[:: -1]
 print(reverse_languaje)
+
+#FUNCIONEES 
+
+print(languaje.capitalize())
+print(languaje.isnumeric())
+print("1".isnumeric())
+print(languaje.upper())
+print(languaje.count("y"))
+print(languaje.lower())
+print(languaje.lower().isupper())
+print(languaje.upper().isupper())
+print(languaje.startswith("py"))
+
