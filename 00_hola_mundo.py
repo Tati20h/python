@@ -4,13 +4,10 @@ print(type("Hola mundo gay"))
 """
 # Este es un comentario de una sola línea
 
-
 Este es un comentario
 de varias líneas
 
-
 # Indentación
-
 
  En Python, la indentación (espacios o tabulaciones al inicio de una línea)
  se utiliza para delimitar bloques de código. 
@@ -68,8 +65,7 @@ es_estudiante = True
 
 a = b = c = 10
 
-
-   #Normas para nombrar variables
+#Normas para nombrar variables
 
    1. Las variables deben comenzar con una letra o un guión bajo (_).
 

@@ -29,3 +29,25 @@ print(len(my_string_variable))
 
 name, submane, alias, age = "Lucy","Hernández","la Tufis" ,29
 print("Mi nombre es :",name,submane,".Tengo",age ," años de edad " ,"y mi alias es:",alias)
+
+#input
+""""
+first_name = input('whatsn is your name:')
+age = input('how old are you?')
+
+
+print(first_name)
+print(age)
+"""
+#Cambiamos su tipo 
+name= 29
+age="Lucy"
+
+print(name)
+print(age)
+
+#¿Forzamps el tipo?
+Address : str = "Mi direccion"
+Address = "234"
+
+print(type(Address))
